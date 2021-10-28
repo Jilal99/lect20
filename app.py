@@ -26,4 +26,6 @@ def index():
     return flask.render_template("index.html", headlines=headlines)
 
 
-app.run()
+app.run(
+    debug=True
+)
